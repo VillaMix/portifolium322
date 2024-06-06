@@ -1700,14 +1700,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar {
     position: absolute;
-    bottom: auto;
-    top: 0;
-    left: auto;
+    bottom: 0;
+    top: -61px;
+    left: -390px;
     right: 0;
-    width: max-content;
-    border-radius: 0 20px;
+    width: 20%;
+    border-radius: 0;
     padding: 0 20px;
     box-shadow: none;
+    border: 0;
+    background: none;
   }
 
   .navbar-list {
